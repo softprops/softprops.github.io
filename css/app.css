@@ -1,0 +1,34 @@
+* { padding:0; margin:0; }
+a:active, a:focus { outline:none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; outline:none; }
+body { font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;  }
+ul { list-style:none; text-align:right; width:99%; }
+li { font-size:60px; font-weight:bold;  color:#f5f5f5; letter-spacing:-12px; margin-right:15px; }
+li { line-height:1.25em; margin:.15em 0 .5em 0; }
+li:hover { color:#231F20; /*cmky black 75.68.67.90*/ }
+li:hover a:link, li:hover a:visited { color:#02eaff; }
+li.say:hover { text-decoration:none; }
+h1 { margin:0; padding:0; }
+input[type="text"] { margin-top:5px; width:40%;  }
+a:link, a:visited { text-decoration:none; color:#f5f5f5; }
+a:hover { color:#BFF313; color:#02EAFF; }
+#copy { border-top:5px solid #333; }
+#flash { color:#f5f5f5; padding:.5em; background:#FF257C; border-bottom:4px solid #F3609B; display:none; }
+#footer { margin-top:4px; }
+#footer a:link,  #footer a:visited { text-decoration:none; color:#ccc;  }
+#footer a:hover { color:#02EAFF; }
+#footer #important { text-align:right; float:right; font-family:georgia, times new roman, serif; font-style:italic; }
+#new-message { letter-spacing:-5px; text-decoration:none; }
+#lost { color:#f5f5f5; }
+.color { color:#02EAFF; }
+.meta { color:#ccc; }
+.vcard, .vcard a:link, .vcard a:visited, .vcard a:hover { display:none; }
+textarea, input[type="text"] { background-color:#fbfbfb; font-size:95%; font-family:'andale mono','lucida console',monospace; width:98%; letter-spacing:-5px; margin:0 0 0 .25em; border:1px solid #eee;}
+form { margin:.5em 0; }
+form a:link { color:#02EAFF; }
+input[type="text"] { margin-top:5px; width:40%;  }
+input.btn { margin:10px 0 0 0; font-weight:bold; color:#999; background-color:#eee; border:4px solid #f5f5f5; font-size:60px; padding:0 .5em; 
+	 -webkit-border-radius:0.6em; -moz-border-radius:1em; }
+input.btn:hover { background:#F3F3F3; border:4px solid #eee; }
+.not-found { font-size:1600%; text-align:center; }
+#group { float:left; font-size:400px; color:#333;}
