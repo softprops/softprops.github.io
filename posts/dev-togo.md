@@ -1,6 +1,6 @@
 ---
 title: portable posting with devtogo
-cover_image: https://images.unsplash.com/photo-1503919545889-aef636e10ad4a
+cover_image: https://images.unsplash.com/photo-1523469625121-6dcacbeb51c2
 tags: tools,showdev,writing
 ---
 
@@ -25,7 +25,7 @@ My goal is to set myself up to build up a consistent writing routine. Posting to
 
 ## serving dev to go
 
-Introducing [devtogo](https://github.com/softprops/devtogo)! Devtogo is a small [Rust](https://www.rust-lang.org/) command line app that communicates with the dev.to API and synchronizes local content with a dev.to account. 
+👩🏽‍💻🎒Introducing [devtogo](https://github.com/softprops/devtogo)! Devtogo is a small [Rust](https://www.rust-lang.org/) command line app that communicates with the dev.to API and synchronizes local content with a dev.to account. 
 
 > ⭐You can learn more about the dev.to API [here](https://docs.dev.to/api/).
 
@@ -179,7 +179,7 @@ jobs:
           DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
 ```
 
-The next step installs the devtogo tool and adds it to the jobs PATH.
+The next step installs the devtogo tool from a GitHub release asset and adds it to the jobs PATH.
 
 ```diff
 jobs:
