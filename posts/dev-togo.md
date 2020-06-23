@@ -13,7 +13,7 @@ tags: tools,showdev,writing
 * [dev delivery service](#dev-delivery-service)
 * [takeaways](#takeaways)
 
-In the last post, I touched a bit on the writing flow I'm iterating towards, one with an eye towards portability and an offline focus. In this post I wanted to talk a bit more about the details of how I intend to make that actually work.
+In the last post, I touched a bit on the writing flow I'm iterating towards, one with an eye towards content portability and an offline focus. In this post I wanted to talk a bit more about the details of how I intend to make that actually work.
 
 To recap, the workflow I want is
 
@@ -226,7 +226,9 @@ jobs:
 +         DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
 ```
 
+That's it for today. In a future post I'll likely post about experimenting with static site generators. Stay tuned.
+
 ## takeaways
 
 * dev.to api is really straight forward and makes the platform that much more compelling to use.
-* If you're into the idea of portal content, give [devtogo](https://github.com/softprops/devtogo) a whirl. I'm interested in your feedback.
+* If you're into the idea of portable content, give [devtogo](https://github.com/softprops/devtogo) a whirl. I'm interested in your feedback.
