@@ -2,6 +2,7 @@
 title: portable posting with devtogo
 cover_image: https://images.unsplash.com/photo-1523469625121-6dcacbeb51c2
 tags: tools,showdev,writing
+published: true
 ---
 
 > portability should be the default.
@@ -232,3 +233,10 @@ That's it for today. In a future post I'll likely post about experimenting with 
 
 * dev.to api is really straight forward and makes the platform that much more compelling to use.
 * If you're into the idea of portable content, give [devtogo](https://github.com/softprops/devtogo) a whirl. I'm interested in your feedback.
+
+  If you are just interesting in experimenting locally you can also install the tool with homebrew
+  
+  ```bash
+  $ brew install softprops/tools/devtogo
+  $ devtogo --help
+  ```
