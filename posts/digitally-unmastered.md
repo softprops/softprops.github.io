@@ -97,9 +97,15 @@ The release of this version happened around the same time as folks were catching
 I created a local alias to reset my GitHub repository's default branches
 
 ```sh
-gh alias \
+$ gh alias \
   set default-branch \
   'api -X PATCH repos/:owner/:repo --raw-field default_branch=$1'
+```
+
+Now you can just do the following when you're migrating a repository.
+
+```sh
+$ gh default-branch main
 ```
 
 But I learned there's a problematic catch updating this on GitHub. Any open pull requests will not automatically be updated.
