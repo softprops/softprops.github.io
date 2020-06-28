@@ -108,7 +108,7 @@ Now you can just do the following when you're migrating a repository.
 $ gh default-branch main
 ```
 
-But I learned there's a problematic catch with this. Any open pull requests will not automatically be updated.
+But I learned there's a problematic catch with this. Any open pull requests based on your old default branch will not automatically be updated.
 
 I recently learned through [another tweet](https://twitter.com/mislav/status/1271462959458463752) from a GitHub employee that you can reset the base branch your open prs to this newly set default branch as well.
 
