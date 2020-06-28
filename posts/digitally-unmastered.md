@@ -21,7 +21,7 @@ There have been quite a lot of posts on the topic of renaming your default git b
 
 Many have covered how to manage doing so on the command line. Most or which have covered how to manage propagating that rename to GitHub though its web UI. 
 
-This post covers how to do close that gap with the ✨ [GitHub CLI](https://cli.github.com/)✨.
+This post covers how to close that gap with the ✨ [GitHub CLI](https://cli.github.com/)✨.
 
 ## motivation
 
